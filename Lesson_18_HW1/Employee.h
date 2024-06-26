@@ -6,7 +6,7 @@ using namespace std;
 struct Employee
 {
     char name[100] = " ";
-    int yearBirth = 0;
+    int age = 0;
     char position[100] = " ";
     int salary = 0;
     char education[100] = " ";
@@ -14,7 +14,7 @@ struct Employee
     void showInfo()
     {
         cout << "Name: " << name << endl;
-        cout << "YearBirth: " << yearBirth << endl;
+        cout << "Age: " << age << endl;
         cout << "Position: " << position << endl;
         cout << "Salary: " << salary << endl;
         cout << "Education: " << education << endl;
